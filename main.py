@@ -8,7 +8,7 @@ client = discord.Client(intents=intents)
 
 TOKEN = "YOUR_TOKEN"
 
-rank_point = a
+rank_point = aaaaa
 
 # Bot起動時に呼び出される関数
 @client.event
@@ -29,7 +29,6 @@ async def on_message(message):
         answer = random.choice(ansewr_list)
         print(answer)
         await message.channel.send(answer)
-
 
 
 # ボットを起動
