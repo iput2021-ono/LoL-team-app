@@ -8,11 +8,7 @@ client = discord.Client(intents=intents)
 
 TOKEN = "YOUR_TOKEN"
 
-<<<<<<< HEAD
-rank_point = aaaaa
-=======
 rank_point = b
->>>>>>> e1281980cb4093648371321d5caeb59f4db51b46
 
 # Bot起動時に呼び出される関数
 @client.event
@@ -29,10 +25,11 @@ async def on_message(message):
     # ユーザーからのメンションを受け取った場合、あらかじめ用意された配列からランダムに返信を返す
     if client.user in message.mentions:
 
-        ansewr_list = ["なんだ","何の用だ","やかましいぞ","くたばれ！ポッター！！","アバダゲダブラ！！！！！"]
+        ansewr_list = ["さすがですね！","知らなかったです！","すごいですね！","センスが違いますね！","そうなんですか？"]
         answer = random.choice(ansewr_list)
         print(answer)
         await message.channel.send(answer)
+
 
 
 # ボットを起動
