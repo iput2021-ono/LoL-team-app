@@ -8,7 +8,7 @@ client = discord.Client(intents=intents)
 
 TOKEN = "YOUR_TOKEN"
 
-rank_point = a
+rank_point = b
 
 # Bot起動時に呼び出される関数
 @client.event
